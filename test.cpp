@@ -6,6 +6,7 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    cout << "chioccola";
 }
 
 // Per eseguire il programma: CTRL+F5 oppure Debug > Avvia senza eseguire debug
