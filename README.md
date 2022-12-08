@@ -1,2 +1,2 @@
 # Esercizi
-Esercizi Tosi
+Esercizi svolti in classe e per compito - ITE Tosi
