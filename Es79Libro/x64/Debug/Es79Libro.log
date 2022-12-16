@@ -1,0 +1,7 @@
+﻿  Es79Libro.cpp
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\Es79Libro.cpp(38,35): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\Es79Libro.cpp(45,35): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\Es79Libro.cpp(51,35): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\Es79Libro.cpp(57,35): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\Es79Libro.cpp(63,35): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  Es79Libro.vcxproj -> C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es79Libro\x64\Debug\Es79Libro.exe
