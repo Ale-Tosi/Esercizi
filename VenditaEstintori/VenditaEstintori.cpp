@@ -36,35 +36,39 @@ int main(){
 
             cout << "Inserisca il peso richiesto di ogni estintore";
             cin >> peso;
+            if (quantità > 0 && peso > 0) {
 
 
 
-
-            cout << "Che tipo di estintori le interessano?\n";
-            cout << "1. A polvere: 5€/kg\n";
-            cout << "2. A CO2, 7,30/kg\n";
-            cout << "Inserisca 1 o 2 per scegliere il tipo corretto di estintore: ";
-            cin >> tipo;
-            switch (tipo) {
+                cout << "Che tipo di estintori le interessano?\n";
+                cout << "1. A polvere: 5€/kg\n";
+                cout << "2. A CO2, 7,30/kg\n";
+                cout << "Inserisca 1 o 2 per scegliere il tipo corretto di estintore: ";
+                cin >> tipo;
+                switch (tipo) {
 
                 case 1:
                     costo = ((quantità * peso) * POLVERE);
-                    
-                break;
 
-                case 2: 
+                    break;
+
+                case 2:
                     costo = ((quantità * peso) * CO2);
 
-                break;
+                    break;
 
                 default:
                     cout << "Errore, inserisci 1 o 2.";
                     costo = 0;
-                break;
+                    break;
 
+                }
+                if (costo != 0) {
+                    cout << "L'importo da pagare sarà di: " << costo << "€";
+                }
             }
-            if (costo != 0) {
-                cout << "L'importo da pagare sarà di: " << costo<<"€";
+            else {
+                cout << "Inserisci dei valori maggiori di zero";
             }
             
         break;
@@ -74,19 +78,24 @@ int main(){
         case '2':
             cout << "Per quanti estintori serve il servizio di controllo annuale? ";
             cin >> quantità;
+            if (quantità > 0) {
 
-            controllo = (quantità * ANNUALE);
-            
 
-            if ((quantità % 5) == 0) {
-                controllo = controllo * 0.85;
-                cout << "L'importo da pagare sarà di: " << controllo << "€, perchè è stato applicato uno sconto del 15% sul totale.\n";
+                controllo = (quantità * ANNUALE);
+
+
+                if ((quantità % 5) == 0) {
+                    controllo = controllo * 0.85;
+                    cout << "L'importo da pagare sarà di: " << controllo << "€, perchè è stato applicato uno sconto del 15% sul totale.\n";
+                }
+                else {
+                    cout << "L'importo da pagare sarà di: " << controllo << "€.\n";
+                }
+
             }
             else {
-                cout << "L'importo da pagare sarà di: " << controllo << "€.\n";
+                cout << "Inserisci un valore maggiore di zero";
             }
-
-
 
         break;
     
