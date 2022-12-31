@@ -1,0 +1,4 @@
+﻿  Es60P125.cpp
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es60P125\Es60P125.cpp(11,31): warning C4101: 'cneg': variabile locale senza riferimenti
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es60P125\Es60P125.cpp(11,25): warning C4101: 'cpos': variabile locale senza riferimenti
+  Es60P125.vcxproj -> C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es60P125\x64\Debug\Es60P125.exe

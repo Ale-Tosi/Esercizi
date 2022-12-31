@@ -1,0 +1,4 @@
+﻿  Es81P127.cpp
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es81P127\Es81P127.cpp(22,12): warning C4805: '==': combinazione non affidabile dei tipi 'double' e 'bool' nell'operazione
+C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es81P127\Es81P127.cpp(9,18): warning C4101: 'tot': variabile locale senza riferimenti
+  Es81P127.vcxproj -> C:\Users\Alessandro\source\repos\Ale-Tosi\Esercizi\Es81P127\x64\Debug\Es81P127.exe
