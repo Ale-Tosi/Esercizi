@@ -25,7 +25,9 @@
 
         table, th, td {
             border: 1px solid white;
-            border-spacing: 0.5px;
+            border-collapse: collapse;
+            border-spacing: 0px;
+            padding: 10px;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
@@ -95,6 +97,14 @@
             padding-left: var(--icon-space);
         }
 
+        a {
+            color: rgb(176, 195, 230);
+        }
+        
+
+        
+       
+
 
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -156,16 +166,16 @@
     <!--tabella-->
     <table>
         <tr style="color: royalblue">
-            <th>Nome</th>
-            <th>Cognome</th>
+            <th> Nome </th>
+            <th> Cognome </th>
         </tr>
         <tr>
-            <td>Alessandro</td>
-            <td>Stellini</td>
+            <td> Alessandro </td>
+            <td> Stellini </td>
         </tr>
         <tr>
-            <td>Angelo</td>
-            <td>Arrigo</td>
+            <td> Angelo </td>
+            <td> Arrigo </td>
         </tr>
     </table>
     <br>
@@ -178,7 +188,8 @@
 </body>
 
 
-<footer class="center">
+<footer class="center" style="line-height: 40px" >
+    
 
     <!--contatti della scuola-->
     <script src="https://kit.fontawesome.com/9ed9442d55.js" crossorigin="anonymous"></script>
@@ -186,10 +197,7 @@
     <div>
         <ul class="list ul">
 
-            <li><i aria-hidden="true" class="fa fa-map-marked-alt"></i> Viale Stelvio 173 - Busto Arsizio (VA)</li>
-
-
-
+            <i aria-hidden="true" class="fa fa-map-marked-alt"></i> Viale Stelvio 173 - Busto Arsizio (VA)<br>
             <li><i aria-hidden="true" class="fa fa-phone"></i> Tel: <a href="tel:Tel: 0331 372011">Tel: 0331 372011</a></li>
 
 
@@ -208,6 +216,7 @@
 
         </ul>
     </div>
+
 
 
     <!--Bottoni dei social-->
