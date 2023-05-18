@@ -37,6 +37,8 @@ a {
 .box img {
     width: 15%;
     border-radius: 50%;
+    max-width: 15%;
+    max-height: auto
 }
 
 .box span {
