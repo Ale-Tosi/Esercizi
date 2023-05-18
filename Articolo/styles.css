@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #121212;
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -20,6 +21,8 @@ div {
     text-justify: inter-word;
 }
 
+
+
 a {
     color: powderblue;
 }
@@ -28,14 +31,15 @@ a {
 .box {
     display: flex;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
-    .box img {
-        width: 20%;
-        border-radius: 50%;
-    }
+.box img {
+    width: 15%;
+    border-radius: 50%;
+}
 
-    .box span {
-        margin-left: 20px;
-    }
+.box span {
+    margin-left: 20px;
+    
+}
