@@ -5,10 +5,12 @@ body {
     background-color: #121212;
     color: white;
     font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
     body img {
-        max-width: 50%;
+        max-width: 30%;
         max-height: auto;
     }
 
@@ -70,7 +72,7 @@ p {
 .bg-img {
     /*Banner*/
     background-image: url(https://www.icbrigatasassari.edu.it/sites/default/files/image-gallery/coding-2_1.jpg);
-    min-height: 200px;
+    min-height: 150px;
     /* Allineamento*/
     background-position: center;
     background-repeat: no-repeat;
@@ -110,3 +112,31 @@ p {
 
 
 
+.accordion {
+    background-color: #121212;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .active, .accordion:hover {
+        background-color: white;
+        color: black;
+    }
+
+.panel {
+    padding: 0 18px;
+    background-color: #121212;
+    max-height: 0;
+    border-radius: 10px;
+    width: 50%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
