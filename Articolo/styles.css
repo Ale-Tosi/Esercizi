@@ -1,10 +1,16 @@
-﻿body {
+﻿/*Formattazione generale*/
+
+
+body {
     background-color: #121212;
     color: white;
     font-family: "Roboto", sans-serif;
 }
 
-
+    body img {
+        max-width: 50%;
+        max-height: auto;
+    }
 
 
 
@@ -27,6 +33,17 @@ a {
     color: powderblue;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+
+p {
+    font-size: 20px
+}
+
+
+/*Zona Autore*/
 
 .box {
     display: flex;
@@ -43,31 +60,34 @@ a {
 
 .box span {
     margin-left: 20px;
+    font-size: 30px
     
 }
 
+/*Zona Navbar/Banner*/
+
 
 .bg-img {
-    /* The image used */
+    /*Banner*/
     background-image: url(https://www.icbrigatasassari.edu.it/sites/default/files/image-gallery/coding-2_1.jpg);
-    min-height: 380px;
-    /* Center and scale the image nicely */
+    min-height: 200px;
+    /* Allineamento*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Needed to position the navbar */
+    
     position: relative;
 
 }
 
-/* Position the navbar container inside the image */
+/* Posizione dentro l'immagine */
 .container {
     position: absolute;
     margin: 20px;
     width: auto;
 }
 
-/* The navbar */
+/*  navbar */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -87,3 +107,6 @@ a {
             background-color: #ddd;
             color: black;
         }
+
+
+
