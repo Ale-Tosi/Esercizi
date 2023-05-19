@@ -71,15 +71,13 @@ p {
 
 .bg-img {
     /*Banner*/
-    background-image: url(https://www.icbrigatasassari.edu.it/sites/default/files/image-gallery/coding-2_1.jpg);
-    min-height: 150px;
+    background-image: url(https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg);
+    min-height: 120px;
     /* Allineamento*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     position: relative;
-
 }
 
 /* Posizione dentro l'immagine */
@@ -142,15 +140,19 @@ p {
 }
 
 
-/*nuovo*/
+/*barra di ricerca*/
 
 #searchInput {
     padding: 10px;
     width: 300px;
     background-color: #121212;
     color: white;
+    border: 0px;
     
 }
+
+
+
 
 #searchResults {
     list-style-type: none;
@@ -174,3 +176,10 @@ p {
         background-color: #121212;
         color: white;
     }
+
+
+
+footer{
+    text-align: left;
+    font-size: 5px !important;
+}
