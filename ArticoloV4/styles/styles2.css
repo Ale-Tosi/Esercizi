@@ -1,0 +1,29 @@
+body {
+    background-color: #121212;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+a {
+    color: black;
+    font-size: 80px;
+}
+
+
+    a.button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
+        color: initial;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+

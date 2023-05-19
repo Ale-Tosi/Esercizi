@@ -1,7 +1,6 @@
 ﻿body {
-    background-color: royalblue;
-    color: black;
-    
+    background-color: #121212;
+    color: white;
 }
 
 
@@ -29,7 +28,7 @@
 
 
 a {
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -50,9 +49,6 @@ a {
 
         
     }
-
-
-
 
 
 
