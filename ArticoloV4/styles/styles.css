@@ -50,20 +50,41 @@ p {
 .box {
     display: flex;
     align-items: center;
-    margin-left: 40%;
+    margin: 0 40%;
+    height: 150px;
 }
 
 .box img {
-    width: 15%;
+    
     border-radius: 50%;
-    max-width: 15%;
+    max-width: 150px;
     max-height: auto
 }
 
 .box span {
+    text-align: center;
     margin-left: 20px;
-    font-size: 30px
+    font-size: 35px;
     
+    
+    
+}
+
+/*Opzione Due Autore*/
+
+.autore {
+    
+    text-align: center;
+}
+
+.autore img {
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: auto
+}
+
+.autore p {
+    font-size: 40px;
 }
 
 /*Zona Navbar/Banner*/
