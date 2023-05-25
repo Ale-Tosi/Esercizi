@@ -34,7 +34,9 @@ div {
     height: 400px;
     background-image: url('https://www.malpensa24.it/wp-content/uploads/2022/09/IMG-20220904-WA0004_edit_764303967029208.jpg');
     background-size: cover;
+    background-position: center;
 }
+
 
 
 a {
