@@ -165,7 +165,7 @@ p {
     background-color: #121212;
     max-height: 0;
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
     z-index: -100;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -231,7 +231,7 @@ footer {
 .justify {
     text-align: justify;
     text-justify: inter-word;
-    width: 60%;
+    width: 80%;
 }
 
 .meme {
